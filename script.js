@@ -1,0 +1,1 @@
+confirm("Please open this only in Desktop");

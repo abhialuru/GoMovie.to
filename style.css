@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: border-box;
+    font-family: Arial;
+}
+
+.logo{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: last baseline;
+    color: #FFBADE;
+    font-size: large;
+}
+ 
+ 
+
+.nav{
+    height: 50px;
+    width : 100%;
+    display: flex;
+    align-items: last baseline;
+    justify-content: space-evenly;
+    color: white;
+}
+
+.box1{
+     
+     margin-left: 10%; 
+     margin-right: 50%;
+     height: 400px;
+     width: 1000px;
+    border-radius: 10px;
+    background-color: rgb(32, 31, 49);
+    background-image: url( animeimg.webp);   
+}
+
+.searchbox{
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+   }
+    
+ 
+  body{
+    background-color: rgb(32, 31, 49);
+  }
+
+   .searchbar {
+    margin-top: 80px;
+       font-size: 1rem;
+       width: 450px;
+       height: 45px;
+       border: 2px solid white;  
+       border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+       background: white;
+       
+    }
+
+    .searchbar:hover{
+        background-color:  white;
+        border: 2px solid black;
+    }
+
+    .mag{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 80px;
+        background-color:  white;
+        height: 45px;
+        width: 45px;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+
+    .mag:hover{
+        background-color:  white;
+        border: 2px solid black;
+    }
+
+    .texts p{
+        font-size:  1rem;
+        font-weight: 400;
+        display:  inline;
+        margin-left: 10%;
+  
+    }
+    .texts{
+        width: 93%;
+    }
+
+    .panel:hover{
+        color: white;
+        text-decoration: underline;
+    }
+
+    .texts p:hover{
+        color: white;
+        text-decoration: underline;
+    }
+
+    .share{
+        height: 50px;
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly; 
+        margin-top: 50px;
+        margin-bottom: 50px;
+        
+        
+    }
+    
+    .go{
+        height: 25px;
+        width: 100px;
+        font-size: 10px;
+         
+    }
+    
+
+    .t{
+        background-color: black;
+        color: white;
+        width: 80px;
+        border-radius: 10%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .t:hover{
+        background-color: black;
+        border: 5px solid black;
+    }
+
+    .f{
+        background-color: rgb(7, 7, 103);
+        color: white;
+        width: 100px;
+        height: 25px;
+        display: flex;
+        border-radius: 10%;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .f:hover{
+        background-color: rgb(7, 7, 103);
+        border: 5px solid  rgb(7, 7, 103);
+    }
+
+    .sh{
+        background-color: #9FD03A;
+        width: 25px;
+        height: 25px;
+        border-radius: 10%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    
+    .sh:hover{
+        background-color:  #9FD03A;
+        border: 5px solid #9FD03A;
+    }
+
+
+    span{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+    }
+
+    span:hover{
+        color: white;
+        text-decoration: underline;
+    }
+
+    h2{
+        margin-left: 15px;
+        color: white;
+        text-align: justify;
+    }
+
+    .bestsite{
+      color: white;
+      margin-left: 15px;
+      margin-top: 10px;
+      text-align: justify; 
+    }
